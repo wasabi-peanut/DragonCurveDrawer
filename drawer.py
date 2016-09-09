@@ -20,8 +20,8 @@ turtle.ht()
 turtle.speed(0)
 turtle.color('white')
 turtle.bgcolor('black')
-turtle.forward(10)
 turtle.down()
+turtle.forward(10)
 for step in range(0,len(new)):
     if new[step] == (r):
         turtle.right(90)
